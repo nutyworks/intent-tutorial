@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".anotheractivity">
+    tools:context=".AnotherActivity">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="짠"
-        android:textColor="#4D76F4"
-        android:textSize="60dp"
-        tools:layout_editor_absoluteX="178dp"
-        tools:layout_editor_absoluteY="325dp" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="TADA"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="355dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
